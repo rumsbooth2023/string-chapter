@@ -7,3 +7,6 @@
 greeting = "hello"
 people = " FRIENDS"
 other_people = " aNd fAmIlY"
+
+
+p greeting.upcase.concat(people.downcase).concat(other_people.swapcase)
